@@ -1,0 +1,28 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Détails</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-grid>
+    <ion-row>
+      <ion-col width-50 offset-25>
+        <div text-center>
+          <img width="10%" src="assets/imgs/user.svg" alt="">
+          <h1>{{personne.nom}} {{personne.prenom}}</h1>
+          <h2>{{personne.titre}}</h2>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <ion-list>
+    <ion-item>
+      <ion-icon name="home" item-start></ion-icon>
+      <h2>{{personne.ecole}}</h2>
+    </ion-item>
+  </ion-list>
+</ion-content>
